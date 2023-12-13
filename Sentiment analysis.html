@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/sentiment/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sentimentAnalysis">
+        <h2>Sentiment Analysis</h2>
+        <textarea id="textInput" placeholder="Enter social media text..."></textarea>
+        <button onclick="analyzeSentiment()">Analyze</button>
+        <div id="resultChartContainer">
+            <canvas id="resultChart"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
